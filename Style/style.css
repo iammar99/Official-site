@@ -15,7 +15,7 @@ header {
 }
 footer{
     min-height: 100px;
-    background-color: yellow;
+    background-color:  #01d1ff;
 }
 main{
     min-height: calc(100vh - 552.6px);
@@ -28,7 +28,7 @@ a.nav-link {
 .header-col {
     height: 488px;
 }
-.row .col{
+.row ,.col{
     padding: 0%;
 }
 @media screen and (max-width:768px) {
@@ -41,4 +41,16 @@ a.nav-link {
         height: 288px;
         width: 75%;
     }
+}
+.email{
+    text-decoration: none;
+    color: black;
+}
+.f-img{
+    height: 20px;
+    ;
+}
+img.img-layer {
+    width: 100%;
+    height: 141px;
 }
