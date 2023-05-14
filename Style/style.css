@@ -281,3 +281,21 @@ footer {
     background: #01d1ff; 
 }
 /* ------------------ End of  Scroll bar ------------------*/
+/* ------------------ Arrow ------------------*/
+.arrow-up {
+    border-radius: 50%;
+    display: flex;
+    width: 74px;
+    height: 74px;
+    background: #3a86ff;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 26px;
+}
+.arrow{
+    font-size: xx-large;
+    color: #ffffff;
+}
+/* ------------------ End of  Arrow ------------------ */
