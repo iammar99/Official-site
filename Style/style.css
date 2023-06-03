@@ -3,14 +3,14 @@ img.header-img {
     max-height: 489px;
     float: right;
 }
-.h-3{
-   
-			color: #110c0c;
-			font-size: 20px;
-			font-weight: bold;
-			text-align: right;
-		}
-	
+
+
+
+h1#sentence {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
 
 
 .navbar {
@@ -25,6 +25,7 @@ header {
     background-color: #01d1ff;
     min-height: 485px;
 }
+
 .header-logo {
     width: 51px;
 }
@@ -77,14 +78,17 @@ div#about {
         padding: 0px 50px 0px 50px;
     }
 }
+
 img.about-img.image-fluid {
     width: 100%;
 }
-ul{
+
+ul {
     line-height: 60px;
 }
+
 @media screen and (max-width:1050px) {
-    ul{
+    ul {
         line-height: 30px;
     }
 }
@@ -151,6 +155,7 @@ ul{
         position: relative;
     }
 }
+
 /* ----------------------- End of about ----------------------- */
 /* ----------------------- Services ----------------------- */
 div#service {
@@ -161,21 +166,25 @@ div#service {
     div#service {
         padding: 0px 50px 0px 50px;
     }
-   
+
 }
+
 @media screen and (max-width:700px) {
-    
-    .card-1{
+
+    .card-1 {
         margin-top: 50px;
     }
-    .card-2{
+
+    .card-2 {
         margin-top: 100px;
     }
 }
+
 img.image-fluid.graphic-design {
     height: 250.13px;
 }
-.card{
+
+.card {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
     padding: 11px;
 }
@@ -187,7 +196,8 @@ img.image-fluid.graphic-design {
     text-decoration: none;
     color: black;
 }
-.email:hover{
+
+.email:hover {
     font-size: larger;
 }
 
@@ -216,22 +226,23 @@ footer {
     width: 200px;
     height: 200px;
     position: relative;
-    margin:  auto;
-  }
-  
-  .loader-container {
-      width: 100%;
-      height: 100%;
-      border-radius: 50%;
-      background-color: #f2f2f2;
-      position: absolute;
-      top: 0;
-      left: 0;
-      overflow: hidden;
-      border: 10px solid white;
-      margin-top: 50%;
-  }
-  .loader-liquid {
+    margin: auto;
+}
+
+.loader-container {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border: 10px solid white;
+    margin-top: 50%;
+}
+
+.loader-liquid {
     width: 100%;
     height: 100%;
     background-color: #01d1ff;
@@ -240,24 +251,27 @@ footer {
     left: 0;
     transform: translateY(100%);
     animation: fill 2s ease-in-out infinite;
-  }
-  
-  @keyframes fill {
+}
+
+@keyframes fill {
     0% {
-      transform: translateY(100%);
+        transform: translateY(100%);
     }
+
     50% {
-      transform: translateY(0);
-      border-radius: 50%;
+        transform: translateY(0);
+        border-radius: 50%;
     }
+
     100% {
-      transform: translateY(0);
-      border-radius: 0;
+        transform: translateY(0);
+        border-radius: 0;
     }
-  }
-  .hidden {
+}
+
+.hidden {
     display: none;
-  }
+}
 
 
 /* ------------------ End of  loader ------------------*/
@@ -266,20 +280,24 @@ footer {
 
 
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 10px;
 }
-::-webkit-scrollbar-track{
+
+::-webkit-scrollbar-track {
     border-radius: 6%;
     background-color: white;
 }
+
 ::-webkit-scrollbar-thumb {
-    background: #3a86ff; 
+    background: #3a86ff;
     border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
-    background: #01d1ff; 
+    background: #01d1ff;
 }
+
 /* ------------------ End of  Scroll bar ------------------*/
 /* ------------------ Arrow ------------------*/
 .arrow-up {
@@ -294,8 +312,17 @@ footer {
     bottom: 20px;
     right: 26px;
 }
-.arrow{
+
+.arrow {
     font-size: xx-large;
     color: #ffffff;
 }
+
 /* ------------------ End of  Arrow ------------------ */
+
+/* ------------------ Whatsapp widget ------------------ */
+.elfsight-app-94c74300-1968-4d9d-87d0-dd1883d5a65f {
+    display: none;
+}
+
+/* ------------------ End of  Whatsapp widget ------------------ */
